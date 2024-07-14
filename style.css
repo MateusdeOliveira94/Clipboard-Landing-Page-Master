@@ -1,0 +1,354 @@
+@charset "UFT-8";
+
+@media all {
+
+    @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+    :root {
+        /*colors*/
+        --primary-strong-Cyan: hsl(171, 66%, 44%);
+        --primary-light-blue: hsl(233, 100%, 69%);
+        --neutral-Dark-Grayish-Blue: hsl(210, 10%, 33%);
+        --neutral-Grayish-Blue: hsl(201, 11%, 66%);        
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    html {
+        height: 100vh;
+        width: 100vw;    
+        box-sizing: border-box;
+        font-family: "Bai Jamjuree", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;   
+        text-align: center;   
+        letter-spacing: normal;   
+    }
+
+    main {
+        margin: 0px 10vw;
+    }
+
+    p {
+        color: var(--neutral-Grayish-Blue);
+        text-align: center;
+        line-height: 1.5em;
+        margin: 16px auto 0px;
+        max-width: 600px;
+    }
+
+    h2 {
+        color: var(--neutral-Dark-Grayish-Blue);
+        font-size: 1.6em;
+    }
+
+    h3 {
+        color: var(--neutral-Dark-Grayish-Blue);
+        font-size: 1.5em;
+    }
+
+    /*header section*/
+
+    header {         
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, .5)), url(images/bg-header-mobile.png) center top no-repeat;
+        background-size: cover;    
+    }
+
+    img.logo-lg {
+        display: block;
+        margin: auto;
+        width: 120px;
+        padding-top: 30%;
+        padding-bottom: 15%;
+    }
+
+    /*hero section*/
+
+    .hero h1 {
+        color: var(--neutral-Dark-Grayish-Blue);
+        font-size: 1.8em;
+        margin-bottom: 14px;
+    }
+
+    .hero p {
+        margin-bottom: 42px;
+    }
+
+    button {
+        display: block;
+        width: 300px;
+        height: 56px;
+        margin: auto;
+        margin-bottom: 24px;
+        border: none;
+        border-radius: 24px;
+        color: white;
+        font-family: "Bai Jamjuree", sans-serif;
+        font-size: 1em;
+        letter-spacing: 1px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    button.ios {
+        background-color: var(--primary-strong-Cyan);
+        box-shadow: inset 0px -2px 3px hsla(171, 68%, 15%, 0.4);    
+    }
+
+    button.ios:hover {
+        background-color: hsl(171, 66%, 49%);
+        box-shadow:  0px 8px 12px 5px hsla(171, 66%, 49%, 0.2);
+    }
+
+    button.mac {
+        background-color: var(--primary-light-blue);
+        box-shadow: inset 0px -2px 3px hsl(233, 45%, 28%, 0.4);
+    }
+
+    button.mac:hover {
+        background-color: hsl(233, 100%, 73%);
+        box-shadow:  0px 8px 12px 5px hsla(233, 100%, 73%, 0.2);
+    }
+
+    /*section keep-track*/
+
+    section.keep-track {
+        margin-top: 100px;
+    }
+
+    .keep-track > p {
+        margin-bottom: 64px;
+    }
+
+    .keep-track .flex-a {   
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .flex-a img {
+        display: block;
+        margin: auto;
+        width: 320px;
+        margin-bottom: 64px;
+    }
+
+    .text-a p {
+        margin: 12px 0px 42px;
+    }
+
+
+    /*section Access*/
+
+    .access {
+        margin-top: 80px;
+    }
+
+    .access img {
+        display: block;
+        margin: auto;
+        width: 350px;          
+        margin-top: 56px;
+    }
+
+    /*section supercharge*/
+
+    .supercharge {
+        margin-top: 80px;
+    }
+
+    .supercharge div.flex-b {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+    }
+
+    .flex-b img {
+        display: block;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .flex-b p {    
+        margin-bottom: 48px;
+    }
+
+    /*section logo-companies*/
+
+    .logo-companies {
+        margin-top: 80px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+         
+    }
+
+    .logo-companies img {                 
+        width: 120px;
+    }
+
+    /*section clipboard*/
+
+    .clipboard {
+        margin-top: 100px;
+    }
+
+    .clipboard .button {
+        margin-top: 32px;
+    }
+
+    footer {
+        background-color: hsla(202, 11%, 66%, 0.100);
+        height: 550px;
+        margin-top: 80px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;         
+    }
+
+    footer > img.logo-sm {
+        display: block;
+        width: 55px;
+    }
+
+    footer > ul {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        justify-content: space-between;
+        height: 250px;
+    }
+
+    footer > ul > li {        
+        list-style-type: none;
+    }
+
+    footer > ul > li > a {
+        text-decoration: none;
+        color: var(--neutral-Dark-Grayish-Blue);
+        font-size: 1.1em;
+        cursor: pointer;
+    }
+
+    a:hover {
+        color: var(--primary-strong-Cyan);
+    }    
+
+    .social-icon img {
+        padding: 0px 16px;
+    }     
+}
+
+@media screen and (min-width: 1440px) { 
+
+    html, body {
+        overflow-x: hidden;        
+    }    
+    
+    /*header section*/
+
+    header {         
+        background: white url(images/bg-header-desktop.png) center top no-repeat;
+        background-size: cover;    
+    }
+
+    img.logo-lg {       
+        padding-top: 10%;
+        padding-bottom: 4%;
+    }
+
+    p {              
+        max-width: 700px;
+    }
+
+    button {        
+        display: inline-block;
+        width: 200px;
+    }
+
+    /*section keep-track*/ 
+    
+         
+    .keep-track .flex-a { 
+        width: 90vw;               
+        display: flex;        
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;        
+    }
+
+    .flex-a img {   
+        width: 600px;         
+        margin-left: -14%;
+    }
+
+    .text-a {
+       position: relative;
+       left: -420px;
+       font-size: 0.8em;
+        text-align: left;
+        width: 350px;     
+    }
+
+    .text-a p{
+        text-align: start;        
+    }
+
+    /*section Access*/
+
+    .access img {        
+        width: 850px;
+        margin-top: 80px;
+    }
+
+     /*section supercharge*/    
+
+    .supercharge div.flex-b {
+        margin: 80px auto 0px;
+        flex-flow: row nowrap;
+        font-size: .8em;
+        max-width: 1000px;
+    }
+
+    /*section logo-companies*/
+
+    .logo-companies {        
+        flex-flow: row nowrap;
+        justify-content: space-around; 
+        height: auto;      
+        max-width: 1000px;
+        margin: 80px auto 0px;        
+    }
+
+    /*footer*/
+    
+    footer {       
+        flex-flow: row nowrap; 
+        height: 150px;                  
+    }
+
+    footer > ul { 
+        flex-flow: row wrap;   
+        height: 80px;
+        width: 500px;
+        justify-content:center ;         
+    }
+
+    footer > ul > li { 
+        padding: 8px 24px;
+    }      
+    
+}
+
