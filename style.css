@@ -185,7 +185,7 @@
 
     .logo-companies {
         height: 400px;
-        margin-top: 80px;
+        margin-top: 120px;
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
@@ -201,7 +201,7 @@
     /*section clipboard*/
 
     .clipboard {
-        margin-top: 100px;
+        margin-top: 120px;
     }
 
     .clipboard .button {
